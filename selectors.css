@@ -1,21 +1,21 @@
-li {
+li > span {
   margin-bottom: 16px;
 }
 
-ol {
+ol > li  span {
   background-color: green;
   color: white;
 }
 
-ul {
+ul > li  span {
   background-color: orange;
   color: white;
 }
 
-#special + li  {
+#special + li > span {
   border: 3px solid red;
 }
 
-#special ~ li  {
+#special ~ li > span {
   margin-left: 16px;
 }
