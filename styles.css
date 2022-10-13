@@ -19,6 +19,6 @@ label {
   font-size: ;
 }
 
-div + label > input {
-  
+label {
+  text-transform: uppercase;
 }
