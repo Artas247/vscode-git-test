@@ -1,30 +1,35 @@
-button:disabled {
-  background-color: white;
-  color: gray;
-  border: 2px dashed grey;
-}
-
-.some-button {
-  background-color: orange;
-  color: green;
-}
-
-.anchor:hover {
-  border: 3px solid red;
-  font-size: 24px;
+a:link {
   background-color: black;
   color: white;
 }
 
-.search:hover{ 
-  background-color: gray;
+a:visited {
+  background-color: orange;
   color: white;
 }
 
-.search:focus {
-  background-color: orange;
+a:hover {
+  font-size: 24px;
 }
 
-.confirm-checkbox:checked {
-  margin-left: 16px;
+a:active, .some-button:active {
+  border: 3px solid red;
 }
+
+.some-button:hover:enabled {
+  background-color: grey;
+  color: white;
+}
+
+.some-button:disabled {
+  border: 2px dashed grey;
+}
+
+
+ .search:focus {
+  background-color: orange;
+ }
+
+ .confirm-checkbox:checked {
+  margin-left: 20px;
+ } 
