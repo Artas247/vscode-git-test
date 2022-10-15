@@ -1,53 +1,23 @@
-body {
-  background-color: #bdc3c7;
+* {
+  background-color: antiquewhite;
 }
 
-h1 {
-  color: #9b59b6;
-}
-
-h2 {
-  color: orange;
-}
-
-li {
-  color: blue;
-}
-
-p {
-  background-color: yellow;
-}
-
-input {
-  border: 3px solid red;
-}
-
-.hello {
-  background-color: white;
-}
-
-#special {
-  border: 2px solid blue;
-}
-
-div p {
-  font-size: 25px;
+.div {
+  border: 8px solid black;
+height: 128px;
+width: 512px;
+margin: 16px;
+padding: 16px;
 }
 
 
-input[type="text"] {
-  background-color: gray;
+.div1 {
+  box-sizing: content-box;
+  background-color: aquamarine;
 }
 
-.div3 p {
-  background-color: yellow;
+.div2 {
+box-sizing: border-box;
+background-color: azure;
 }
 
-.div3 p:nth-child(3) {
-  border: 5px solid white;
-}
-
-.div3 em {
-  color: white;
-  font-size: 20px;
-}
