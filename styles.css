@@ -1,31 +1,70 @@
-* {
-  box-sizing: border-box;
+div {
+  padding: 16px;
 }
 
-.div {
-  background-color: blue;
+.child,
+.parent {
   border: 2px solid black;
-  margin: 50px;  
 }
 
-.div2 {
-  background-color: yellow;
-  border: 2px solid black;
-  margin: 50px;
+.child {
+  position: absolute;
+  top: 90px;
+  right: 40px;
+}
+
+.parent {
+  width: 300px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+
+.child {
+  background: yellow;
+  position: absolute;
+}
+
+.tip {
+  opacity: 1;
+  background-color: whitesmoke;
+  padding: 0 8px;
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  background: green;
+  float: left;
+}
+
+.container {
+  height: 2000px;
 }
 
 
-.div3 {
-  background-color: green;
-  border: 2px solid black;
-  margin: 50px;
+
+
+
+
+
+.static-parent {
+  position: static;
 }
 
-
-.div4 {
-  background-color: pink;
-  border: 2px solid black;
-  margin: 50px;
-  padding: 50px;
+.relative-parent {
+  position: relative;
+  bottom: 20px;
+  right: 50px;
 }
 
+.absolute-parent {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.fixed-parent {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+}
