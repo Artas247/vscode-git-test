@@ -9,23 +9,24 @@
   background-color: red;
   float: left;
 }
+.block_black {
+  background-color: black;
+  float: left;
+}  
 
-.block_green {
+
+ .block_green {
   background-color: green;
-  float: right;
-}
-
+  float: left;
+} 
+ 
  .block_blue {
   background-color:blue;
-  float: right;
+  float: left;
 }
 
 .block_yellow {
   background-color: yellow;
-  float: right;
+  float: left;
 }
 
-.block_black {
-  background-color: black;
-  float: right;
-} 
