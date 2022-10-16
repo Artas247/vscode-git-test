@@ -1,27 +1,31 @@
-.header {
-  height: 50px;
-  background-color: yellow;
-}
-
-
-
-.content{
-  width: 80%;
-  background-color: pink;
-  height: 500px;
-  float: left;
-}
-
-.sidebar {
+.box {
+  height: 200px;
   width: 20%;
-  background-color: gray;
-  height: 500px;
+}
+
+
+
+.block_red {
+  background-color: red;
   float: left;
 }
 
-.footer {
-  height: 50px;
+.block_green {
   background-color: green;
-  clear: both;
+  float: right;
 }
 
+ .block_blue {
+  background-color:blue;
+  float: right;
+}
+
+.block_yellow {
+  background-color: yellow;
+  float: right;
+}
+
+.block_black {
+  background-color: black;
+  float: right;
+} 
