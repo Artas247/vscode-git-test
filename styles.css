@@ -7,6 +7,47 @@
   background-color: beige;
 }
 
+.header {
+  background-color: darkturquoise;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navigation {
+  color: white;
+  position: absolute;
+}
+
+.nav-item:nth-child(1) {
+  position: relative;
+  display: block;
+  float: left;
+  line-height: 100%;
+  display: block;
+  margin-left: 16px;
+  bottom: 10px;
+}
+.nav-item:nth-child(2) {
+  position: relative;
+  float: left;
+  line-height: 100%;
+  display: block;
+  margin-left: 16px;
+  bottom: 10px;
+}
+.nav-item:nth-child(3) {
+  position: relative;
+  float: left;
+  line-height: 100%;
+  display: block;
+  margin-left: 16px;
+  bottom: 10px;
+}
+
+
+
 .head {
   position: absolute;
   background-color: aquamarine;
@@ -16,62 +57,6 @@
   height: 200px;
 }
 
-.header {
-  background-color: darkturquoise;
-  height: 40px;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-}
-
-
-
-.navigation {
-  color: white; 
-  position: absolute;
-  height: 40px;
-  width: 100%;
-  
-}
-
-.nav-item:nth-child(1) {
-  position: relative;
-  display: block;
-  float: left;
-  
-  
-  margin-left: 16px; 
-  line-height: 50%; 
-  
-  
-  
-}
-.nav-item:nth-child(2) {
-  position: relative;
-  display: block;
-  float: left;
-  
-  
-  margin-left: 16px; 
-  line-height: 50%; 
-  
-
-  
-}
-.nav-item:nth-child(3) {
-  position: relative;
-  display: block;
-  float: left;
-  
-  display: block;
-  margin-left: 16px; 
-  line-height: 50%; 
-  
-}
-
-
-
-
 
 .eye {
   background-color: gray;
@@ -79,19 +64,14 @@
   border-radius: 50%;
   height: 30px;
   width: 30px;
-
 }
-
-
 
 .eye_right {
   background-color: gray;
   position: absolute;
+
   left: 40px;
-
 }
-
-
 
 .eye_left {
   background-color: gray;
@@ -100,16 +80,17 @@
 }
 
 
-.ear{
+.ear {
   height: 60px;
   width: 40px;
   background-color: brown;
   position: absolute;
-  top: -60px;;
+  top: -60px;
 }
-.ear_right{
+.ear_right {
   right: -40px;
 }
-.ear_left{
+.ear_left {
   left: -40px;
 }
+
