@@ -24,45 +24,38 @@
   z-index: 2;
 }
 
-.nav-item:nth-child(1)  {
-  color: white;
-   display: inline;
-  margin-left: 16px; */
-  float: left;
-   line-height: 50%; 
+.navigation {
+  color: white; 
+  position: absolute;
+  
 }
 
-.nav-item:nth-child(2)  {
-  color: white;
-   display: inline;
-  margin-left: 16px; */
-  float: left;
-   line-height: 50%; 
-}
-
-.nav-item:nth-child(3)  {
-  color: white;
-   display: inline;
-  margin-left: 16px; */
-  float: left;
-   line-height: 50%; 
-}
-
-
-
-
-
-
-
-
-
-
-
-.nav-list {
+.nav-item:nth-child(1) {
   position: relative;
+  display: block;
+  float: left;
+  line-height: 100%;
+  display: block;
+  margin-left: 16px; 
+  bottom: 10px;
+  
+}
+.nav-item:nth-child(2) {
+  position: relative;
+  float: left;
+  line-height: 100%;
+  display: block;
+  margin-left: 16px; 
   bottom: 10px;
 }
-
+.nav-item:nth-child(3) {
+  position: relative;
+  float: left;
+  line-height: 100%;
+  display: block;
+  margin-left: 16px;
+  bottom: 10px;
+}
 
 
 .eye {
