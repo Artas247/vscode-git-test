@@ -1,27 +1,88 @@
-*{
+* {
   box-sizing: border-box;
 }
-div{
+
+.content {
+  height: 5000px;
+  background-color: beige;
+}
+
+.head {
+  position: absolute;
+  background-color: aquamarine;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  width: 200px;
   height: 200px;
-  width: 20%;
 }
-.block_red{
-  background-color: red;
-  float: left;
+
+.header {
+  background-color: darkturquoise;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
-.block_green{
-  background-color: green;
+
+.nav-item {
+  color: white;
+  display: inline;
+  margin-left: 16px;
   float: left;
+  line-height: 50%;
 }
-.block_blue{
-  background-color: blue;
-  float: left;
+
+.nav-list {
+  position: relative;
+  bottom: 10px;
 }
-.block_yellow{
-  background-color: yellow;
-  float: left;
+
+
+
+.eye {
+
+
 }
-.block_black{
-  background-color: black;
-  float: left;
+
+
+
+.eye_right {
+  background-color: gray;
+position: absolute;
+top: 80px;
+left: 40px;
+border-radius: 50%;
+height: 30px;
+width: 30px;
+
+
+
+}
+
+
+
+.eye_left {
+  background-color: gray;
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  
+}
+
+
+.ear{
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  position: absolute;
+  top: -60px;;
+}
+.ear_right{
+  right: -40px;
+}
+.ear_left{
+  left: -40px;
 }
