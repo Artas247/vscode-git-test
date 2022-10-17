@@ -24,9 +24,13 @@
   z-index: 2;
 }
 
+
+
 .navigation {
   color: white; 
   position: absolute;
+  height: 40px;
+  width: 100%;
   
 }
 
@@ -34,28 +38,39 @@
   position: relative;
   display: block;
   float: left;
-  line-height: 100%;
-  display: block;
+  
+  
   margin-left: 16px; 
-  bottom: 10px;
+  line-height: 50%; 
+  
+  
   
 }
 .nav-item:nth-child(2) {
   position: relative;
-  float: left;
-  line-height: 100%;
   display: block;
+  float: left;
+  
+  
   margin-left: 16px; 
-  bottom: 10px;
+  line-height: 50%; 
+  
+
+  
 }
 .nav-item:nth-child(3) {
   position: relative;
-  float: left;
-  line-height: 100%;
   display: block;
-  margin-left: 16px;
-  bottom: 10px;
+  float: left;
+  
+  display: block;
+  margin-left: 16px; 
+  line-height: 50%; 
+  
 }
+
+
+
 
 
 .eye {
@@ -71,12 +86,9 @@
 
 .eye_right {
   background-color: gray;
-position: absolute;
-top: 80px;
-left: 40px;
-border-radius: 50%;
-height: 30px;
-width: 30px;
+  position: absolute;
+  left: 40px;
+
 }
 
 
@@ -84,12 +96,7 @@ width: 30px;
 .eye_left {
   background-color: gray;
   position: absolute;
-  top: 80px;
   right: 40px;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  
 }
 
 
