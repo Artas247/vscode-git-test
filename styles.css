@@ -4,7 +4,7 @@ div.block {
   margin: 8px;
 
   flex-shrink: 0;
-  flex-grow: 2;
+  flex-grow: 1;
   min-width: 100px;
 }
 
