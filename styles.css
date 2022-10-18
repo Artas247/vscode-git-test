@@ -44,8 +44,6 @@
 .aside {
   width: 200px;
   background-color: grey;
-  
-  
 }
 
 .footer {
@@ -54,25 +52,22 @@
   display: flex;
 }
 
-
-
-
-
 .news {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  margin-bottom: 0;
 }
-
 
 .li1 {
   list-style-type: none;
   padding: 0;
-  margin-left: 16px;    
-   
+  margin-left: 16px;
+  
 }
 
 .ul {
   padding: 0;
   line-height: 40px;
+  margin-top: 0; 
 }
