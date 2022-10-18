@@ -3,10 +3,13 @@
   justify-content: center;
 }
 
+
+
+
 .articles-list {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
   
 }
 
