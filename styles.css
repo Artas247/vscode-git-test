@@ -1,35 +1,76 @@
-body {
-        display: flex;
-
-      }
-      
-      
-      
-      
-      .block {
-        height: 300px;
-        width: 40px;
-        width: 100%;
-        flex-direction: row;
-      }
-
-      .block_red {
-        background-color: red;
-      }
-
-
-      .block_green {
-        background-color: green;
-      }
-
-      .block_blue {
-        background-color: blue;
-      }
-
-      .block_yellow {
+  .header {
+        height: 40px;
         background-color: yellow;
+        display: flex;
+        align-items: center;
+        width: 100%;
       }
 
-      .block_black {
-       background-color: black; 
+      .navigation {
+        margin: 0;
+        display: flex;
+        list-style-type: none;
+      }
+
+      .item {
+        margin-right: 16px;
+      }
+
+      .text_footer {
+        margin: auto;
+      }
+
+      .page {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+      }
+
+      .main {
+        flex-grow: 1;
+        display: flex;
+      }
+
+      .section {
+        display: flex;
+        flex-grow: 1;
+        background-color: pink;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .aside {
+        width: 200px;
+        background-color: grey;
+        
+        
+      }
+
+      .footer {
+        height: 40px;
+        background-color: green;
+        display: flex;
+      }
+
+
+
+
+
+      .news {
+        display: flex;
+        justify-content: center;
+
+      }
+
+
+      .li1 {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 16px;    
+         
+      }
+
+      .ul {
+        padding: 0;
       }
