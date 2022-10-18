@@ -22,11 +22,13 @@
   padding: 16px;
   background-color: bisque;
   min-width: 300px;
-  flex-grow: 1;
-  flex-basis: 300px;
+  flex-grow: 0;
+  flex-basis: 0;
+  
 
 }
 
 .h2 {
   display: flex;
+  align-content: center;
 }
