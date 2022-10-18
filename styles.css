@@ -1,85 +1,14 @@
-*{
-  box-sizing: border-box;
-}
-.content{
-  background-color: beige;
-  height: 5000px;
-}
-.header{
-  background-color: darkturquoise;
-  height: 40px;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  
+div.block {
+  background-color: coral;
+  height: 100px;
+  margin: 8px;
 
-}
-.nav-item{
-  position: relative;
-  float: left;
-  display: inline;
-  line-height: 40px;
-  margin-left: 16px;
-  color: white;
-  bottom: px;
+  flex-shrink: 0;
+  flex-grow: 2;
+  min-width: 100px;
 }
 
-
-.navigation {
-  position: relative;
-  bottom: px;
-}
-
-
-.nav-list{
-  height: 40px;
- 
- margin: 0px;
-}
-
-
-
-
-
-
-
-
-
-
-.head{
-  position: absolute;
-  background-color: aquamarine;
-  top: calc(50% - 100px);
-  left: calc(50% - 100px);
-  height: 200px;
-  width: 200px;
- }
-
-.ear{
-  height: 60px;
-  width: 40px;
-  background-color: brown;
-  position: absolute;
-  top: -60px;;
-}
-.ear_right{
-  right: -40px;
-}
-.ear_left{
-  left: -40px;
-}
-
-.eye{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: grey;
-  position: absolute;
-  top: 80px;
-}
-.eye_right{
-  right: 40px;
-}
-.eye_left{
-  left: 40px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
