@@ -1,26 +1,16 @@
-.horizontal{
-    height: 50px;
-    flex-direction: row;
-  }
-  .vertical{
-    height: 200px;
-    flex-direction: column;
-  }
-  html {
-    font-size: 24px;
-  }
+div {
+  height: 100px;
+  
+ 
+  min-width: 100px;
 
-  div {
-    margin: 16px;
-    border: 1px solid burlywood;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
 
-  .horizontal > span {
-    background-color: aqua;
-  }
-  .vertical > span {
-    background-color: coral;
-  }
+  flex-shrink: 0;
+
+  flex-grow: 1;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+}
