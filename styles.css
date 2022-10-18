@@ -1,73 +1,26 @@
-.header {
-  height: 40px;
-  background-color: yellow;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
+.horizontal{
+    height: 50px;
+    flex-direction: row;
+  }
+  .vertical{
+    height: 200px;
+    flex-direction: column;
+  }
+  html {
+    font-size: 24px;
+  }
 
-.navigation {
-  margin-left: 16px;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
+  div {
+    margin: 16px;
+    border: 1px solid burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-.item {
-  margin-right: 16px;
-}
-
-.text_footer {
-  margin: auto;
-}
-
-.page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
-}
-
-.main {
-  flex-grow: 1;
-  display: flex;
-}
-
-.section {
-  display: flex;
-  flex-grow: 1;
-  background-color: pink;
-  justify-content: center;
-  align-items: center;
-}
-
-.aside {
-  width: 200px;
-  background-color: grey;
-}
-
-.footer {
-  height: 40px;
-  background-color: green;
-  display: flex;
-}
-
-.news {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-.li1 {
-  list-style-type: none;
-  padding: 0;
-  margin-left: 16px;
-  
-}
-
-.ul {
-  padding: 0;
-  line-height: 40px;
-  margin-top: 0; 
-}
+  .horizontal > span {
+    background-color: aqua;
+  }
+  .vertical > span {
+    background-color: coral;
+  }
