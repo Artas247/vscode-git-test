@@ -1,14 +1,18 @@
-.block {
-  background-color: coral;
-  margin: 8px;
-  height: 100px;
+div > div {
   width: 100px;
-  display: flex;
-  flex-grow: 1;
-  flex-shrink: 0;
-  min-width: 100px;
+  height: 100px;
+  background: coral;
 }
-.container{
-  display: flex;
-  flex-wrap: wrap;
+
+.container > div:nth-child(1) {
+    display: none; 
 }
+
+.container > div:nth-child(2) {
+  visibility: hidden;
+}
+
+.container > div:nth-child(3) {
+  visibility: visible;
+}
+
