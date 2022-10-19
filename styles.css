@@ -1,18 +1,35 @@
-div > div {
-  width: 100px;
-  height: 100px;
-  background: coral;
+* {
+  box-sizing: border-box;
 }
 
-.container > div:nth-child(1) {
-    display: none; 
+
+.articles {
+  display: flex;
+
 }
 
-.container > div:nth-child(2) {
-  visibility: hidden;
+.div {
+height: 100px;
+width: 150px;
+background-color: beige;
+margin: 16px;
+
 }
 
-.container > div:nth-child(3) {
-  visibility: visible;
+.visible-text {
+
 }
 
+.cropped {
+overflow: hidden;
+}
+
+.both-scrolls {
+overflow: scroll;
+cursor: all-scroll;
+}
+
+.vertical-scroll {
+overflow-y: scroll;
+cursor: all-scroll;
+}
