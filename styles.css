@@ -1,19 +1,13 @@
-     .list {
-            font-size: 2em;
-            list-style-type: none;
-            line-height: 40px;
-
-        }
-
-        .first {
-            text-decoration: red underline;
-            text-decoration-style: wavy;
-        }
-
-        .second {
-            text-decoration: line-through;
-        }
-
-        .third {
-            text-decoration: overline;
-        }
+.list{
+  list-style-type: none;
+  font-size: 150%;
+}
+.first{
+  text-decoration: red overline;
+}
+.second{
+  text-decoration: line-through;
+}
+.third{
+  text-decoration: green underline
+}
