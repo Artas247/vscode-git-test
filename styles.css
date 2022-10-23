@@ -1,4 +1,4 @@
 body {
-  background-repeat: repeat;
+  background-repeat: repeat-x repeat-y;
   background-image: url(background.jpg);
 }
