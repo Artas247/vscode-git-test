@@ -7,6 +7,6 @@ form {
   margin: 32px;
 }
 
-.form-control {
-  margin-top: 8px;
-} 
+.form-control, .languages {
+  margin: 8px;
+}
