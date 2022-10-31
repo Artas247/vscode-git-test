@@ -20,63 +20,26 @@ td {
   
 }
 
-
-
-tr:nth-child(2) > td {
+tbody > tr > td {
   border: 1px solid black;
 }
 
-
-tr:nth-child(2) > td:last-child {
-  border: 0px;
-  
-}
-tr:nth-child(2) > td:first-child {
-  border: 0px;
-  
-}
-
-
-
-
-
-tr:nth-child(9) > td {
-  border: 1px solid black;
+tr:first-child > td {
+  border: 0;
 } 
 
-tr:nth-child(9) > td:first-child {
-  border: 0px;
-  
-}
-tr:nth-child(9) > td:last-child {
-  border: 0px;
-  
-}
+tr:last-child > td {
+  border: 0;
+} 
 
-
-
-tbody > tr > td:last-child, td:nth-child(2) {
-  border-left: 1px solid black;
-}
-
-tbody > tr:first-child > td {
-  border: 0px;
-}
-tbody > tr:last-child > td {
-  border: 0px;
+tbody > tr > td:first-child {
+  border: 0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+tbody > tr > td:last-child {
+  border: 0;
+}
 
 
 tr:nth-child(even) > td:nth-child(odd){
@@ -120,6 +83,10 @@ tr:last-child > td:nth-child(odd) {
   
   
 }
+
+
+
+
 
 
 
