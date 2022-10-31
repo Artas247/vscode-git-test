@@ -4,7 +4,7 @@
 
 table {
   margin: 16px;
-  border: 1px solid black;
+  outline: 1px solid black;
   border-collapse: collapse;
   
 }
@@ -14,12 +14,15 @@ td {
   height: 50px;
   text-align: center;
   justify-content: center;
+  padding: 0px;
   
   
   
 }
 
-tr:nth-child(2) > td:nth-child(even) {
+
+
+tr:nth-child(2) > td {
   border: 1px solid black;
 }
 
@@ -28,12 +31,24 @@ tr:nth-child(2) > td:last-child {
   border: 0px;
   
 }
+tr:nth-child(2) > td:first-child {
+  border: 0px;
+  
+}
 
-tr:nth-child(9) > td:nth-child(odd) {
+
+
+
+
+tr:nth-child(9) > td {
   border: 1px solid black;
 } 
 
 tr:nth-child(9) > td:first-child {
+  border: 0px;
+  
+}
+tr:nth-child(9) > td:last-child {
   border: 0px;
   
 }
@@ -105,5 +120,6 @@ tr:last-child > td:nth-child(odd) {
   
   
 }
+
 
 
