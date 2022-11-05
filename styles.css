@@ -1,41 +1,46 @@
-body {
-  display: flex;
+* {
+  box-sizing: border-box;
 }
 
-.custom-button {
-  margin: 64px;
-  height: 50px;
-  width: 200px;
+
+.container {
+  margin: 32px;
+ 
+  
+}
+
+.rect{
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 16px;
   background-color: coral;
-  color: white;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  line-height: 50px;
+  opacity: 0.5;
+  padding-top: 39px;
+  transition: width 2s, opacity 0.5s;
+}
+.rect:hover {
+  opacity: 1;
+  width: 100%;
+}
+
+.rect:nth-child(1) {
+  transition-timing-function: linear;
+}
+
+.rect:nth-child(2) {
+  transition-timing-function: ease;
 }
 
 
-.custom-button:hover {
-  color: darkcyan;
+.rect:nth-child(3) {
+  transition-timing-function: ease-in;
 }
 
-
-
-
-
-
-.bird-icon {
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
-  fill: white;
+.rect:nth-child(3) {
+  transition-timing-function: ease-out;
 }
 
-
-.custom-button:hover > .bird-icon {
-  fill: green;
+.rect:nth-child(3) {
+  transition-timing-function: ease-in-out;
 }
