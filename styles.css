@@ -2,23 +2,31 @@
   box-sizing: border-box;
 }
 
-
 .container {
   margin: 32px;
- 
   
 }
 
-.rect{
-  text-align: center;
+.rect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
   width: 100px;
   height: 100px;
   margin-bottom: 16px;
   background-color: coral;
   opacity: 0.5;
-  padding-top: calc(100px - 50px - 11px);
+  
   transition: width 2s, opacity 0.5s;
 }
+
+span {
+  display: block;
+}
+
+
+
 .rect:hover {
   opacity: 1;
   width: 100%;
@@ -32,7 +40,6 @@
   transition-timing-function: ease;
 }
 
-
 .rect:nth-child(3) {
   transition-timing-function: ease-in;
 }
@@ -44,3 +51,4 @@
 .rect:nth-child(3) {
   transition-timing-function: ease-in-out;
 }
+
