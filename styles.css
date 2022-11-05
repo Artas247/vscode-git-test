@@ -1,43 +1,53 @@
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: coral;
+  .spinner {
+      position: absolute;
+      top: calc(50vh - 9.2px);
+      left: calc(50vw - 43.99px);
 
- 
-  position: absolute;
-  animation: move 4s;
-  animation-iteration-count: 2;
- animation-direction: alternate; 
-
-}
-
-@keyframes move {
-  from {
-    left: 0;
-    right: 0;
-    background-color: coral;
-  }
-  25% {
-    left: 300px;
-    top: 0;
-    background-color: cornflowerblue;
-  }
-  50% {
-      left: 300px;
-      top: 300px;
-      background-color: aqua;
       
-  }
-  75% {
-      left: 0;
-      top: 300px;
-      background-color: yellowgreen;
-  }
-  100% {
-      left: 0;
-      top: 0;
+    }
+
+    .spinner-text {
+      font-family: monospace;
+      font-size: 16px;
+      text-transform: uppercase;
+      animation: blinking 2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
       
-  }
+    .rect {
+      background-color: black;
+      width: 10px;
+      height: 4px;
+      border-radius: 2px;
+      animation: moving 2s, blinking 2s;
+      animation-direction: alternate;
+      position: absolute;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+      
+      
+      
+      
+      @keyframes moving {
+        from {
+          left: 0;
+          opacity: 1;
+        }
+        to {
+          left: 70px;
+        }
+      }
 
-
-}
+      @keyframes blinking {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
