@@ -15,7 +15,7 @@
 
   .circle {
     margin: auto;
-    box-sizing: border-box;
+    
     height: 50px;
     width: 50px;
     border: 4px solid lightgray;
