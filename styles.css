@@ -22,7 +22,7 @@
     border-top: 4px solid black;
     border-radius: 50%;
     margin-bottom: 8px;
-    animation: spin 2s linear reverse;
+    animation: spin 2s linear;
   }
 
   @keyframes blinking {
