@@ -1,4 +1,4 @@
-* {
+  * {
         box-sizing: border-box;
       }
 
@@ -37,6 +37,8 @@
       }
       .navigation {
         width: 20%;
+     
+        
       }
 
       .section {
@@ -58,6 +60,7 @@
 
       .news {
         width: 20%;
+        text-align: center;
       }
 
       .section__header {
@@ -68,7 +71,7 @@
       .nav-list {
         list-style-type: none;
         padding: 0;
-        margin-left: 8px;
+        margin: 16px 13px;
         
       }
 
@@ -87,3 +90,5 @@
         white-space: nowrap;
         text-overflow: ellipsis;
       }
+
+   
