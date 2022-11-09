@@ -36,8 +36,8 @@
         text-align: center;
       }
       .navigation {
-        width: 20%;
-     
+        min-width: 20%;
+     padding: 0.5em;
         
       }
 
@@ -60,7 +60,7 @@
 
       .news {
         width: 20%;
-        text-align: center;
+        padding: 0.5em;
       }
 
       .section__header {
@@ -71,7 +71,7 @@
       .nav-list {
         list-style-type: none;
         padding: 0;
-        margin: 16px 13px;
+        /* margin: 16px 13px; */
         
       }
 
