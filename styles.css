@@ -97,7 +97,9 @@ h1 {
 }
 
 
-
+.navigation_section {
+  display: flex;
+}
 
 
 .pic {
@@ -111,10 +113,11 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .main {
-    display: flex;
+  .navigation_section {
     flex-direction: column;
+    
   }
+
 } 
 
 
@@ -126,9 +129,7 @@ h1 {
 
 
 
-.navigation_section {
-  display: flex;
-}
+
 
 
 
@@ -156,7 +157,7 @@ h1 {
 
 
 
-      @media screen and (max-width: 1200px) and (min-width: 600px) {
+      @media screen and (max-width: 1199px)  {
         
         .navigation_section {
           display: flex;
@@ -168,3 +169,4 @@ h1 {
       }
     
       } 
+
