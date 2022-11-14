@@ -76,7 +76,7 @@ h1 {
   padding: 0;
   /* margin: 16px 13px; */
   
-}
+ }
 
 .nav-list-link {
   
@@ -134,16 +134,16 @@ h1 {
 
 
       .navigation {
-        min-width: 20%;
+        min-width: 20vw;
         padding: 0.5em;
       }
       .section {
         padding: 0.5em;
-        min-width: 60%;
+        min-width: 60vw;
         font-size: 1.25em;
       }
       .news {
-        min-width: 20%;
+        min-width: 20vw;
         padding: 0.5em;
         flex: 1;
       }
@@ -161,7 +161,7 @@ h1 {
         
         .navigation_section {
           display: flex;
-          flex: 2;
+          
         }
         .main {
         flex-direction: column;
@@ -169,4 +169,4 @@ h1 {
       }
     
       } 
-
+ 
